@@ -16,7 +16,7 @@
 //   every such dip so far has retraced.
 //
 // Exits (shared, checked on every bar while holding): sell when the close is
-// 80 bps above the entry close, or 80 bps below the highest close since
+// 70 bps above the entry close, or 80 bps below the highest close since
 // entry (a trailing stop that is also the hard stop while the trade has not
 // moved up), or after 240 bars held. No new entries in the last 30 bars of
 // a 1,440-bar window: a position opened there would pay a full round trip of
@@ -38,7 +38,7 @@ const DIP_BPS = 130;
 /** Dip buy size: full cash (bps of cash). */
 const SIZE_BPS = 10000;
 /** Exit: sell when the close is this far (bps) above the entry close. */
-const EXIT_BPS = 60;
+const EXIT_BPS = 70;
 /** Trailing stop: sell when the close falls this far (bps) below the peak. */
 const TRAIL_BPS = 80;
 /** Time stop: sell after this many bars held. */

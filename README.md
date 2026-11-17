@@ -25,9 +25,9 @@ of the window.
 
 ## Dev-window result (local grade, `grade-local --driver process`)
 
-- Net PnL: **+15.67 USDC** (backtest; grade-local result below once run)
-- Max drawdown: ~1.1%
-- Trades: 8 (4 round trips)
+- Net PnL: **+15.66 USDC** (grade-local, process driver; 2x-fees net PnL +12.43)
+- Max drawdown: 1.13%
+- Trades: 8 (4 round trips, win rate 100%)
 
 ## Layout
 
