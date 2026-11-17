@@ -38,7 +38,7 @@ const DIP_BPS = 130;
 /** Dip buy size: full cash (bps of cash). */
 const SIZE_BPS = 10000;
 /** Exit: sell when the close is this far (bps) above the entry close. */
-const EXIT_BPS = 80;
+const EXIT_BPS = 70;
 /** Trailing stop: sell when the close falls this far (bps) below the peak. */
 const TRAIL_BPS = 80;
 /** Time stop: sell after this many bars held. */
